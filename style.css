@@ -6,3 +6,29 @@
     font-family:'main';
     src: url(./alte_haas_grotesk/AlteHaasGroteskRegular.ttf);
 }
+
+header{
+    width: 100%;
+    background-color: #343a40;
+    color: white;
+    font-family: 'titulos';
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+header h1{
+    font-size: 30px;
+}
+
+main{
+    background-color: black;
+}
+
+h5{
+    font-family: 'titulos';
+}
+
+p{
+    font-family: 'main';
+}
+
