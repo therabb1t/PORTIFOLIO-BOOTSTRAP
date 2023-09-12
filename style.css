@@ -7,6 +7,11 @@
     src: url(./alte_haas_grotesk/AlteHaasGroteskRegular.ttf);
 }
 
+*{
+    margin: 0;
+    padding: 0;
+} 
+
 header{
     width: 100%;
     background-color: #343a40;
@@ -20,15 +25,27 @@ header h1{
     font-size: 30px;
 }
 
+.form-control{
+    background-color: black;
+    color: white;
+    font-family: 'titulos';
+    border: 2px solid #363636;
+}
+
+.card{
+      background-color: #343a40;
+}
+
 main{
     background-color: black;
 }
 
 h5{
     font-family: 'titulos';
+        color: white;
 }
 
 p{
     font-family: 'main';
-}
+    color: #A9A9A9;
 
