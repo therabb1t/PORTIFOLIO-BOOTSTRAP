@@ -1,5 +1,5 @@
 function aplicaFiltroCards() {
-    var input, filter, cards, cardContainer, h5, cardtitle, small, i;
+    var input, filter, cards, cardContainer, h5, cardtitle, small, cardeck, i;
     input = document.getElementById("filtroCards");
     filter = input.value.toUpperCase();
     cardContainer = document.getElementById("ContainerCards");

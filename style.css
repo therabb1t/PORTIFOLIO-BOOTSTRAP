@@ -17,7 +17,7 @@ header{
     background-color: #343a40;
     color: white;
     font-family: 'titulos';
-    padding-left: 20px;
+    padding-left: 35px;
     padding-top: 10px;
     padding-bottom: 5px;
 }
@@ -32,8 +32,14 @@ header h1{
     border: 2px solid #363636;
 }
 
+.card-deck{
+    margin-bottom: 20px;
+}
 .card{
-      background-color: #343a40;
+    display: block;
+    width: 800px;
+    height: 400px;
+    background-color: #343a40;
 }
 
 main{
@@ -42,7 +48,7 @@ main{
 
 h5{
     font-family: 'titulos';
-        color: white;
+    color: white;
 }
 
 p{
